@@ -1,0 +1,361 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+/**/
+/* .myborder:hover{
+    width: 1102px;
+}
+.myborder{
+    width: 10px;
+    height: 10px;
+    background: red;
+
+    transition-property: width;
+    transition-duration: 2s;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 1px;
+    background: #cb7152;
+} */
+/* .vamtam-splash-screen-progress-wrapper{
+    position: absolute;
+        bottom: 55%;
+        left: 20%;
+        right: 20%;
+        padding-bottom: 30px;
+        border-bottom: 10px solid #ededed; text-align: center;
+} */
+
+.vamtam-splash-screen{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: #ffffff;
+    z-index: 99999;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+.vamtam-splash-screen-progress{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 1px;
+    height: 1px;
+    background: #cb7152;
+    /* transition-property: width;
+    transition-duration: 2s; */
+    /* transition-property: width;
+    transition-duration: 0.25s ; */
+    transition-property: width;
+    transition-duration: 0.25s;
+    transition-timing-function: linear;
+    transition-delay: 0s;
+    
+}
+.vamtam-splash-screen:hover .vamtam-splash-screen-progress{
+    width: 1102px;
+    
+    
+}
+.vamtam-splash-screen-progress-wrapper{
+    position: absolute;
+    bottom: 55%;
+    left: 20%;
+    right: 20%;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #EDEDED;
+}
+
+/**/
+.background_image{
+    background-image:url(https://vip-restaurant.vamtam.com/wp-content/uploads/2014/07/section-title-bg-5.jpg);
+    background-size: cover;
+    width: auto;
+    height: 100vh;
+    background-attachment: fixed;
+}
+.main_menu_text{
+    background-color: #f6f6f6;
+    width: 100%;
+    height: 20vh;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+.main_menu_text h1{
+    font-size: 54px;
+    margin: 0px;
+    line-height: 1.4em;
+    font: normal 58px/96px 'Libre Baskerville';
+    text-align: center;
+    flex-direction: column;
+}
+.main_menu_area{
+    background-color: #f6f6f6;
+    padding: 50px 20px 40px;
+    /* border-bottom: solid 1px #ededed; */
+}
+.main_page_line{
+    justify-content: center;
+    display: flex;
+    width: 100px;
+    height: 3px;
+    border-radius: 82px;
+    background: #cb7152;
+    margin-top: 7px;
+    margin-bottom: 10px;
+    
+}
+.mydiv_menu{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #f6f6f6;
+}
+.desk{
+    font-family: varela round;
+    font-size: 16px;
+    width: 65%;
+    line-height: 1.5em;
+    margin-top: 10px;
+    padding: 0 12%;
+    text-align: center;
+}
+
+.main_menu_page{
+    border-bottom: solid 1px #ededed;
+}
+
+/**/
+.first_menu_logos{
+    
+    text-align: center;
+}
+.left_line{
+    display: inline-block;
+    width: 30%;
+    border-top: 0 solid;
+    border-bottom: 1px solid;
+    vertical-align: baseline;
+}
+.line_area_left{
+    width: 50%;
+    font-size: 54px;
+    display: table-cell;
+    /* width: 100%; */
+    vertical-align: middle;
+    text-align: right;
+
+}
+.right_line{
+    display: inline-block;
+    width: 30%;
+    border-top: 0 solid;
+    border-bottom: 1px solid;
+    vertical-align: baseline;
+    
+}
+.line_area_right{
+    width: 50%;
+    font-size: 54px;
+    display: table-cell;
+    /* width: 100%; */
+    vertical-align: middle;
+    text-align: left;
+    padding-left: 0px;
+}
+
+
+.menus{
+
+}
+.menu_order{
+
+}
+.menu_inner_box{
+    padding: 10px;
+}
+.menu_inner_box h3{
+    font-size: 16px;
+    padding-bottom: 8px;
+    padding-right: 60px;
+    position: relative;
+    margin-bottom: 2px;
+    border-bottom: 1px dotted;
+    border-spacing: initial;
+    border-color: #6b6b6b;
+    font-family: Varela Round;
+    color: #333333;
+    
+}
+.menu_inner_box div{
+    font-style: normal;
+    font-size: 12px;
+    font-family: Varela Round;
+}
+
+
+/**/
+.background_image_second{
+    background-image:url(https://vip-restaurant.vamtam.com/wp-content/uploads/2014/07/section-title-bg-6.jpg);
+    background-size: cover;
+    width: auto;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+
+
+
+/**/
+.background_image_third{
+    background-image:url(https://vip-restaurant.vamtam.com/wp-content/uploads/2014/07/section-title-bg-7.jpg);
+    background-size: cover;
+    width: auto;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+
+
+
+
+
+/**/
+
+.bottom_menu_one{
+    background-color: rgb(255, 255, 255);
+    padding: 30px 40px 40px;
+    min-height: 737px;
+    border-radius: 20px;
+}
+.bottom_menu_two{
+    background-color: rgb(255, 255, 255);
+    padding: 30px 55px 40px;
+    min-height: 737px;
+    border-radius: 20px;
+}
+.bottom_menu_center{
+    background-color:#23282f;
+    padding: 30px 55px 40px;
+    min-height: 737px;
+    border-radius: 20px;
+}
+
+.sep-text.single.centered{
+    position: relative;
+    margin: 30px 0;
+    text-align: center;
+    display: flex;
+}
+.sep-text-before{
+    width: 50%;
+    font-size: 10px;
+}
+.sep-text-line{
+    display: inline-block;
+    width: 100%;
+    border-top: 0 solid;
+    border-bottom: 1px solid;
+    vertical-align: baseline;
+    padding-top: 53px;
+}
+.content{
+    padding-right: .7em;
+    padding-left: .7em;
+    font: normal 16px/24px Varela Round;
+}
+.sep-text-after{
+    width: 50%;
+    font-size: 10px;
+    
+    
+    vertical-align: middle;
+    
+    text-align: left;
+}
+.text-divider-double{
+    margin: 0;
+    line-height: 1;
+    position: relative;
+    
+    text-align: center;
+    letter-spacing: 2px;
+    white-space: nowrap;
+    font: normal 56px/68px Libre Baskerville;
+}
+.text-divider-subtitle{
+    color: #cb7152;
+    font-family: handlee;
+    font-size: 1em;
+    letter-spacing: .3em;
+    padding-top: 10px;
+}
+
+
+
+
+.w3-bar-item.w3-button{
+    border: none;
+    background-color: #fff;
+    color:  #cb7152;
+}
+.w3-bar-item.w3-button:hover
+{
+    border-bottom: 3px solid;
+    border-color: #cb7152;
+    
+    
+}
+
+.menu_buttons{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 12px;
+    list-style: none;
+    cursor: pointer;
+}
+
+
+.beslik{
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.reng:hover{
+    color: #cb7152;
+    cursor: pointer;
+}
+.rengserab{
+    color: #333333;
+}
+.rengserab:hover{
+    color: #cb7152;
+    cursor: pointer;
+}
+/* .menu_bar{
+    background-color: #ededed;
+    width: 50%;
+} */
+/* .mydiv_menubar_middle div{
+width: 100%;
+background-color: white;
+height: 700px;
+border-radius: 12px;
+}
+.mydiv_menubar_left div{
+    width: 25%;
+}
+.menu_brunch div{
+    /* background-color: rgb(160, 52, 52); */
+    /* padding: 30px 55px 40px;
+} */
